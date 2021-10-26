@@ -79,45 +79,45 @@ public class Conditionals {
     }
 
 
-            public static void main(String[] args) {
-                System.out.println(chimpTrouble(true, true));
-                System.out.println(chimpTrouble(false,false));
-                System.out.println(chimpTrouble(true, false ));
-                System.out.println(chimpTrouble(false, true));
-                System.out.println("");
-                System.out.println(negPos(1,-1, false));
-                System.out.println(negPos(-1,1, false));
-                System.out.println(negPos(1,1, false));
-                System.out.println(negPos(-1,-1, false));
-                System.out.println(negPos(-4,-5, true));
-                System.out.println(negPos(-4,5, true));
-                System.out.println(negPos(4,5, true));
-                System.out.println(negPos(4,-5, true));
-                System.out.println(" ");
-                System.out.println(pickUpPhone(false, false, true));
-                System.out.println(pickUpPhone(true, true, true));
-                System.out.println(pickUpPhone(true, true, false));
-                System.out.println(pickUpPhone(false, true, false));
-                System.out.println(pickUpPhone(true, false, false));
-                System.out.println(pickUpPhone(false, false, false));
-                System.out.println(" ");
-                System.out.println(setAlarm(1, false));
-                System.out.println(setAlarm(5, false));
-                System.out.println(setAlarm(0, false));
-                System.out.println(setAlarm(2, true));
-                System.out.println(setAlarm(4, true));
-                System.out.println(setAlarm(6, true));
-                System.out.println(" ");
-                System.out.println(onesDigitSame(23, 19, 13));
-                System.out.println(onesDigitSame(23, 19, 12));
-                System.out.println(onesDigitSame(23, 19, 3));
-                System.out.println(onesDigitSame(423, 13, 3));
-                System.out.println(onesDigitSame(23, 29, 25));
-                System.out.println(" ");
-                System.out.println(blackjack(19, 21));
-                System.out.println(blackjack(21, 19));
-                System.out.println(blackjack(19, 22));
-                System.out.println(blackjack(8, 8));
-                System.out.println(blackjack(25, 24));
+    public static void main(String[] args) {
+        System.out.println(chimpTrouble(true, true));
+        System.out.println(chimpTrouble(false,false));
+        System.out.println(chimpTrouble(true, false ));
+        System.out.println(chimpTrouble(false, true));
+        System.out.println("");
+        System.out.println(negPos(1,-1, false));
+        System.out.println(negPos(-1,1, false));
+        System.out.println(negPos(1,1, false));
+        System.out.println(negPos(-1,-1, false));
+        System.out.println(negPos(-4,-5, true));
+        System.out.println(negPos(-4,5, true));
+        System.out.println(negPos(4,5, true));
+        System.out.println(negPos(4,-5, true));
+        System.out.println(" ");
+        System.out.println(pickUpPhone(false, false, true));
+        System.out.println(pickUpPhone(true, true, true));
+        System.out.println(pickUpPhone(true, true, false));
+        System.out.println(pickUpPhone(false, true, false));
+        System.out.println(pickUpPhone(true, false, false));
+        System.out.println(pickUpPhone(false, false, false));
+        System.out.println(" ");
+        System.out.println(setAlarm(1, false));
+        System.out.println(setAlarm(5, false));
+        System.out.println(setAlarm(0, false));
+        System.out.println(setAlarm(2, true));
+        System.out.println(setAlarm(4, true));
+        System.out.println(setAlarm(6, true));
+        System.out.println(" ");
+        System.out.println(onesDigitSame(23, 19, 13));
+        System.out.println(onesDigitSame(23, 19, 12));
+        System.out.println(onesDigitSame(23, 19, 3));
+        System.out.println(onesDigitSame(423, 13, 3));
+        System.out.println(onesDigitSame(23, 29, 25));
+        System.out.println(" ");
+        System.out.println(blackjack(19, 21));
+        System.out.println(blackjack(21, 19));
+        System.out.println(blackjack(19, 22));
+        System.out.println(blackjack(8, 8));
+        System.out.println(blackjack(25, 24));
     }
 }
